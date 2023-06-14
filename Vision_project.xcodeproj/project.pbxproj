@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9F6E8CEC2A32311D001810C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E8CEB2A32311D001810C1 /* AppDelegate.swift */; };
 		9F6E8CEE2A32311D001810C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E8CED2A32311D001810C1 /* SceneDelegate.swift */; };
-		9F6E8CF02A32311D001810C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E8CEF2A32311D001810C1 /* ViewController.swift */; };
+		9F6E8CF02A32311D001810C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E8CEF2A32311D001810C1 /* FirstViewController.swift */; };
 		9F6E8CF32A32311D001810C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E8CF12A32311D001810C1 /* Main.storyboard */; };
 		9F6E8CF52A32311E001810C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E8CF42A32311E001810C1 /* Assets.xcassets */; };
 		9F6E8CF82A32311E001810C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E8CF62A32311E001810C1 /* LaunchScreen.storyboard */; };
+		9F6E8D002A32EF39001810C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E8CFF2A32EF39001810C1 /* SecondViewController.swift */; };
+		9F89D73E2A38663400E378FD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89D73D2A38663400E378FD /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F6E8CE82A32311D001810C1 /* Vision_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vision_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6E8CEB2A32311D001810C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6E8CED2A32311D001810C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F6E8CEF2A32311D001810C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F6E8CEF2A32311D001810C1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9F6E8CF22A32311D001810C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6E8CF42A32311E001810C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6E8CF72A32311E001810C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6E8CF92A32311E001810C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6E8CFF2A32EF39001810C1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9F89D73D2A38663400E378FD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,23 @@
 			children = (
 				9F6E8CEB2A32311D001810C1 /* AppDelegate.swift */,
 				9F6E8CED2A32311D001810C1 /* SceneDelegate.swift */,
-				9F6E8CEF2A32311D001810C1 /* ViewController.swift */,
+				9F89D73F2A38663D00E378FD /* Controllers */,
 				9F6E8CF12A32311D001810C1 /* Main.storyboard */,
 				9F6E8CF42A32311E001810C1 /* Assets.xcassets */,
 				9F6E8CF62A32311E001810C1 /* LaunchScreen.storyboard */,
 				9F6E8CF92A32311E001810C1 /* Info.plist */,
 			);
 			path = Vision_project;
+			sourceTree = "<group>";
+		};
+		9F89D73F2A38663D00E378FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F89D73D2A38663400E378FD /* ThirdViewController.swift */,
+				9F6E8CFF2A32EF39001810C1 /* SecondViewController.swift */,
+				9F6E8CEF2A32311D001810C1 /* FirstViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6E8CF02A32311D001810C1 /* ViewController.swift in Sources */,
+				9F6E8D002A32EF39001810C1 /* SecondViewController.swift in Sources */,
+				9F6E8CF02A32311D001810C1 /* FirstViewController.swift in Sources */,
+				9F89D73E2A38663400E378FD /* ThirdViewController.swift in Sources */,
 				9F6E8CEC2A32311D001810C1 /* AppDelegate.swift in Sources */,
 				9F6E8CEE2A32311D001810C1 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,11 +306,13 @@
 				DEVELOPMENT_TEAM = 6AZ6TUHC7X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vision_project/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan card details";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +336,13 @@
 				DEVELOPMENT_TEAM = 6AZ6TUHC7X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Vision_project/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan card details";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
